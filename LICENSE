@@ -1,0 +1,40 @@
+# INNORIX AI Integration License
+
+Copyright (c) 2026 INNORIX Co., Ltd.
+
+All rights reserved.
+
+This repository contains reference integration examples, configuration samples, and documentation for integrating the INNORIX Platform with AI orchestration environments.
+
+## Permitted Use
+
+You may:
+
+* View and study the source code.
+* Use the examples as reference for integrating the INNORIX Platform.
+* Modify the examples for internal evaluation or integration purposes.
+
+## Restrictions
+
+You may not:
+
+* Redistribute this repository as your own product.
+* Remove or modify copyright notices.
+* Use the INNORIX name, trademarks, or logos without prior written permission.
+* Distribute modified versions of this repository without authorization.
+
+## INNORIX Platform
+
+The examples contained in this repository are designed to work with the INNORIX Platform.
+
+The INNORIX Platform, including the INNORIX Agent, Server, SDK, and related software, is proprietary software and is licensed separately under the applicable commercial license agreement.
+
+## Disclaimer
+
+This repository is provided for reference purposes only.
+
+The examples are supplied "AS IS", without warranty of any kind, express or implied, including but not limited to merchantability, fitness for a particular purpose, and non-infringement.
+
+INNORIX Co., Ltd. shall not be liable for any damages arising from the use of this repository.
+
+For commercial licensing information, please contact INNORIX Co., Ltd.

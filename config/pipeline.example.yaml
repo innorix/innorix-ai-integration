@@ -1,0 +1,119 @@
+###############################################################################
+
+# AI Pipeline Configuration
+
+#
+
+# This file defines how INNORIX integrates with an AI orchestration platform.
+
+###############################################################################
+
+###############################################################################
+
+# Pipeline
+
+###############################################################################
+
+pipeline:
+
+# Enable or disable pipeline integration
+
+enabled: true
+
+# AI Pipeline Provider
+
+# kubeflow | airflow | sagemaker | vertex-ai | azureml | custom
+
+provider: kubeflow
+
+###############################################################################
+
+# API Endpoints
+
+###############################################################################
+
+endpoint:
+
+# Trigger pipeline execution
+
+trigger_url: https://your-ai-platform.example.com/api/v1/pipeline/run
+
+# Check pipeline execution status
+
+status_url: https://your-ai-platform.example.com/api/v1/pipeline/status
+
+###############################################################################
+
+# Authentication
+
+###############################################################################
+
+authentication:
+
+# none | api-key | bearer-token
+
+method: api-key
+
+api_key: YOUR_PIPELINE_API_KEY
+
+###############################################################################
+
+# Trigger
+
+###############################################################################
+
+trigger:
+
+# Automatically trigger the pipeline after a successful transfer
+
+auto_trigger: true
+
+# Wait until the transfer has completed
+
+wait_for_transfer: true
+
+###############################################################################
+
+# Monitoring
+
+###############################################################################
+
+monitoring:
+
+# Monitor pipeline execution
+
+enabled: true
+
+# Polling interval (seconds)
+
+polling_interval: 30
+
+# Maximum wait time (minutes)
+
+timeout: 120
+
+###############################################################################
+
+# Output
+
+###############################################################################
+
+output:
+
+# Automatically start result distribution
+
+auto_distribution: false
+
+# Logical output name
+
+target: ai-output
+
+###############################################################################
+
+# Logging
+
+###############################################################################
+
+logging:
+
+level: INFO

@@ -1,0 +1,147 @@
+###############################################################################
+
+# INNORIX Agent Configuration
+
+#
+
+# This file defines the runtime configuration for the
+
+# INNORIX Agent.
+
+###############################################################################
+
+###############################################################################
+
+# Agent
+
+###############################################################################
+
+agent:
+
+# Agent version
+
+version: latest
+
+# Unique Agent Identifier
+
+id: AGENT-001
+
+# Friendly Agent Name
+
+name: AI Integration Agent
+
+# Agent Group
+
+group: default
+
+###############################################################################
+
+# INNORIX Platform
+
+###############################################################################
+
+platform:
+
+# INNORIX Platform Server
+
+server: https://your-innorix-server.example.com
+
+# API Key
+
+api_key: YOUR_API_KEY
+
+# Communication Protocol
+
+protocol: https
+
+###############################################################################
+
+# Storage
+
+###############################################################################
+
+storage:
+
+# Root directory accessible by the Agent
+
+root_path: /data
+
+###############################################################################
+
+# Transfer
+
+###############################################################################
+
+transfer:
+
+# Maximum simultaneous transfers
+
+max_concurrent_transfers: 4
+
+# Verify transferred files
+
+verify_after_transfer: true
+
+# Overwrite existing files
+
+overwrite_existing: true
+
+# Retry count
+
+retry_count: 3
+
+###############################################################################
+
+# Logging
+
+###############################################################################
+
+logging:
+
+# Log level
+
+level: INFO
+
+# Log directory
+
+directory: /var/log/innorix
+
+# Maximum log file size (MB)
+
+max_file_size_mb: 100
+
+# Number of backup log files
+
+max_backup_files: 10
+
+###############################################################################
+
+# Health Check
+
+###############################################################################
+
+health:
+
+# Heartbeat interval (seconds)
+
+heartbeat_interval: 30
+
+# Automatically reconnect to the Platform
+
+auto_reconnect: true
+
+###############################################################################
+
+# Security
+
+###############################################################################
+
+security:
+
+# Verify TLS certificates
+
+verify_tls: true
+
+# Allow self-signed certificates (Development only)
+
+allow_self_signed_certificate: false
