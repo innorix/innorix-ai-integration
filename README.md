@@ -1,5 +1,12 @@
 # INNORIX AI Integration
 
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![AI](https://img.shields.io/badge/AI-Integration-7C3AED)
+![MLOps](https://img.shields.io/badge/MLOps-Supported-2563EB)
+![Kubeflow](https://img.shields.io/badge/Kubeflow-Supported-326CE5)
+![License](https://img.shields.io/badge/License-Commercial-red)
+![Status](https://img.shields.io/badge/Status-Official-success)
+
 Reference implementation for integrating enterprise data with modern AI platforms using the INNORIX Platform.
 
 INNORIX provides secure, reliable, and high-performance file transfer capabilities for enterprise environments. This repository demonstrates how INNORIX can be integrated with AI workflows to move datasets into AI platforms and distribute AI-generated outputs back to enterprise systems.
